@@ -1,6 +1,8 @@
 using JSON
 using ArgParse
 using LinearAlgebra
+using Pkg
+Pkg.activate(DEPOT_PATH[1])
 
 mutable struct MakeOffer
     times::Array{String}
